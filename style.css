@@ -15,144 +15,151 @@ body {
   font-family: poppins !important;
   background-color: #021128 !important;
 }
+
 /* body */
 
 /* navbar */
 
-.nav-link{
+.nav-link {
   padding: 20px !important;
   color: rgb(194, 194, 194) !important;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: #BA7220 !important;
 }
 
-.number{
+.number {
   font-family: Roboto Mono;
   color: #BA7220;
 }
 
-.navbar-brand{
-  margin-left: 5%;
+.navbar-brand {
   margin: 20px;
 }
 
-.nav-right-li{
+.nav-right-li {
   margin-right: 5%;
 }
 
-.navbar-toggler{
+.navbar-toggler {
   background-color: #021128;
   color: white !important;
 }
 
-.btn-resume{
+.btn-resume {
   color: rgb(194, 194, 194) !important;
   border: 1px solid #BA7220 !important;
   margin-top: -5px;
 }
 
-@media (max-width:991px){
-  .navbar-brand{
-    margin-left: none !important;
+.btn-resume:hover {
+  border: 1px solid white !important;
+}
+
+@media (max-width:991px) {
+  .navbar-brand {
+    margin-left: -1px;
     padding: none !important;
   }
-  
-  .nav-right-li{
+
+  .nav-right-li {
     margin-right: none !important;
   }
 
-  .nav-link{
+  .nav-link {
     padding: none !important;
     text-align: center;
   }
 }
+
 /* navbar */
 
 /* top-part */
 
-.top-part{
+.top-part {
   margin-top: 3%;
   margin-bottom: 7%;
 }
 
-@media(max-width:568px){
-  .top-part{
+@media(max-width:568px) {
+  .top-part {
     margin-bottom: 12%;
   }
 }
 
-.hello{
+.hello {
   color: #BA7220;
   font-family: poppins;
   font-weight: 500;
   font-size: 25px;
 }
 
-.name{
+.name {
   color: white;
   font-family: poppins;
   font-weight: 600;
   font-size: 60px;
 }
 
-.website{
+.website {
   color: rgb(137, 137, 137);
   font-family: poppins;
   font-weight: 600;
   font-size: 60px;
 }
 
-.short-about{
+.short-about {
   color: rgb(137, 137, 137);
   font-family: poppins;
   font-weight: 500;
   font-size: 20px;
 }
 
-.download{
+.download {
   margin-top: 20px;
 }
 
-@media (max-width:568px){
-  .hello{
+@media (max-width:568px) {
+  .hello {
     font-size: 15px;
   }
-  
-  .name{
+
+  .name {
     font-size: 40px;
   }
-  
-  .website{
+
+  .website {
     font-size: 38px;
   }
-  
-  .short-about{
+
+  .short-about {
     font-size: 15px;
   }
 }
+
 /* top-part */
 
 /* skill part */
 
-.skill-h1{
+.skill-h1 {
   color: #ff961d;
   font-weight: 700 !important;
 }
 
-.skill-start{
+.skill-start {
   margin-top: 5%;
 }
-.skill-name{
+
+.skill-name {
   color: aliceblue;
 }
 
-.progress-bar{
+.progress-bar {
   background-color: rgb(41, 41, 255) !important;
 }
 
-.skill-row{
+.skill-row {
   padding: 15px;
 }
 
@@ -160,22 +167,27 @@ body {
 
 /* project part */
 
-.project-part{
+.proj-details {
+  padding: 10px;
+  color: white;
+}
+
+.project-part {
   margin-top: 5%;
 }
 
-.project-h1{
+.project-h1 {
   color: #ff961d;
   /* color: rgb(250, 248, 248); */
   margin-bottom: 5% !important;
   font-weight: 700 !important;
 }
 
-.ui-con{
+.ui-con {
   margin-top: 5%;
 }
 
-.proj-card{
+.proj-card {
   border: none !important;
   background: none !important;
 }
@@ -214,12 +226,12 @@ body {
 
 /* contact part */
 
-.contact-part{
+.contact-part {
   margin-top: 7%;
   margin-bottom: 5%;
 }
 
-.contact-h1{
+.contact-h1 {
   margin-bottom: 7% !important;
   color: #ff961d;
   font-weight: 700 !important;
@@ -250,7 +262,7 @@ body {
 
 .textarea {
   color: white !important;
-  border: 2px solid #BA7220 !important; 
+  border: 2px solid #BA7220 !important;
   border-radius: 20px;
 }
 
@@ -262,14 +274,23 @@ body {
   color: white !important;
 }
 
-@media(max-width:577px){
+@media(max-width:577px) {
   .submit {
     width: 50% !important;
   }
 }
-@media(max-width:340px){
+
+@media(max-width:340px) {
   .submit {
     width: 70% !important;
+  }
+}
+
+
+@media(max-width:991px) {
+  .contact-part {
+    margin-top: 10%;
+    margin-bottom: 15%;
   }
 }
 
@@ -278,30 +299,33 @@ body {
   color: white !important;
 }
 
-.form-con{
+.form-con {
   display: flex;
-    justify-content: center;
-    align-items: center;
+  justify-content: center;
+  align-items: center;
 }
+
 /* contact part */
 
 /* footer */
-footer{
-  background-color: black;
+footer {
+  background-color: #031b3e;
   text-align: center;
 }
 
-.fa-github{
+.fa-github {
   color: white;
   padding: 5px;
 }
 
-.fa-instagram{
+.fa-instagram {
   padding: 5px;
   color: hotpink;
 }
-.fa-linkedin{
+
+.fa-linkedin {
   padding: 5px;
   color: lightskyblue;
 }
+
 /* footer */

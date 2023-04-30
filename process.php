@@ -3,13 +3,13 @@
     $visitor_email = $_POST['email'];
     $message = $_POST['message'];
 
-    $email_from = "contact@yashsingh.engineer";
+    $email_from = "contact@yashs.me";
     $email_subject = "New Contact Form Submission";
     $email_body = "User Name: $name\n".
                     "User Email: $visitor_email\n".
                         "User Message: $message\n".
           
-    $to = "contact@yashsingh.engineer"; 
+    $to = "contact@yashs.me"; 
     
     $headers = "From: $email_from \r\n";
 
